@@ -1,9 +1,5 @@
-# Online Auto — визуальная витрина
+# Online Auto frontend
 
-Это отдельный статический фронтенд для GitHub Pages: главная страница, категории, поиск по каталогу и 48 карточек с фотографиями. В репозитории нет серверной части магазина, базы данных, панели администратора или секретов. Оформление заказа пока отключено.
+Static export of the original local Next.js storefront: the same CSS, header, menu, language picker, category icons, product cards, detail pages, contacts and cart. Public catalog data is captured at build preparation time; database access, API routes and admin pages are excluded. Order submission is unavailable in the static preview.
 
-## Локальный предпросмотр
-
-`node build.mjs` создаёт папку `dist/`. Откройте `dist/index.html` в браузере или запустите любой статический HTTP-сервер в этой папке.
-
-GitHub Actions пересобирает и публикует витрину при каждом push в `main`.
+Run `npm ci`, then `NEXT_PUBLIC_BASE_PATH=/online_auto npm run build`. GitHub Actions publishes `out`. The local source project regenerates this deployment checkout with `npx tsx scripts/prepare-pages.ts`.

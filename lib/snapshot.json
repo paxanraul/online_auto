@@ -1,0 +1,1283 @@
+{
+  "settings": {
+    "currency": "AZN",
+    "maintenance": false,
+    "data": {
+      "name": {
+        "az": "Avtomobil aksesuarları",
+        "ru": "Автомобильные аксессуары"
+      },
+      "tagline": {
+        "az": "Avtomobiliniz üçün",
+        "ru": "Для вашего автомобиля"
+      },
+      "heroTitle": {
+        "az": "Hər detal önəmlidir.",
+        "ru": "Каждая деталь имеет значение."
+      },
+      "heroDescription": {
+        "az": "Salon, qulluq və rahat səfərlər üçün aksesuarlar. Avtomobilinizə lazım olanı tapın.",
+        "ru": "Аксессуары для салона, ухода и комфортных поездок. Найдите то, что нужно вашему автомобилю."
+      },
+      "catalogTitle": {
+        "az": "Kateqoriyanızı tapın",
+        "ru": "Найдите свою категорию"
+      },
+      "featuredTitle": {
+        "az": "Diqqət mərkəzində",
+        "ru": "В центре внимания"
+      },
+      "contactsTitle": {
+        "az": "Əlaqədə olaq",
+        "ru": "Будем на связи"
+      },
+      "business": {
+        "az": "",
+        "ru": ""
+      },
+      "address": {
+        "az": "",
+        "ru": ""
+      },
+      "hours": {
+        "az": "",
+        "ru": ""
+      },
+      "footer": {
+        "az": "Gündəlik səfərlər üçün aksesuarlar.",
+        "ru": "Аксессуары для повседневных поездок."
+      },
+      "maintenanceTitle": {
+        "az": "Tezliklə yenidən yoldayıq",
+        "ru": "Скоро снова в дороге"
+      },
+      "maintenanceMessage": {
+        "az": "Mağazamızı yeniləyirik. Zəhmət olmasa, bir qədər sonra yenidən baxın.",
+        "ru": "Мы обновляем магазин. Пожалуйста, загляните чуть позже."
+      },
+      "metaTitle": {
+        "az": "Avtomobil aksesuarları",
+        "ru": "Автомобильные аксессуары"
+      },
+      "metaDescription": {
+        "az": "Salon, qulluq və səfərlər üçün avtomobil aksesuarları kataloqu.",
+        "ru": "Каталог автомобильных аксессуаров для салона, ухода и поездок."
+      },
+      "catalogMetaTitle": {
+        "az": "Aksesuarlar kataloqu",
+        "ru": "Каталог аксессуаров"
+      },
+      "catalogMetaDescription": {
+        "az": "Kateqoriyalar üzrə avtomobiliniz üçün aksesuarlar.",
+        "ru": "Аксессуары для вашего автомобиля по категориям."
+      },
+      "contactsMetaTitle": {
+        "az": "Əlaqə",
+        "ru": "Контакты"
+      },
+      "contactsMetaDescription": {
+        "az": "Avtomobil aksesuarları mağazası ilə əlaqə saxlayın.",
+        "ru": "Свяжитесь с магазином автомобильных аксессуаров."
+      },
+      "cartMetaTitle": {
+        "az": "Səbət",
+        "ru": "Корзина"
+      },
+      "cartMetaDescription": {
+        "az": "Onlayn ödənişsiz sifarişin rəsmiləşdirilməsi.",
+        "ru": "Оформление заказа без онлайн-оплаты."
+      },
+      "logo": "/logo.svg",
+      "favicon": "/logo.svg",
+      "heroImage": "/hero.webp",
+      "phone": "",
+      "whatsapp": "",
+      "accent": "#c74416",
+      "featured": [],
+      "sections": [
+        {
+          "id": "intro",
+          "visible": true
+        },
+        {
+          "id": "categories",
+          "visible": true
+        },
+        {
+          "id": "featured",
+          "visible": true
+        },
+        {
+          "id": "contacts",
+          "visible": true
+        }
+      ],
+      "navigation": [
+        {
+          "type": "catalog",
+          "label": {
+            "az": "Kataloq",
+            "ru": "Каталог"
+          },
+          "visible": true
+        },
+        {
+          "type": "contacts",
+          "label": {
+            "az": "Əlaqə",
+            "ru": "Контакты"
+          },
+          "visible": true
+        }
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "cmusxupmp0000c7qdol3hc2vx",
+      "slug": "interior",
+      "nameRu": "Салон и электроника",
+      "nameAz": "Salon və elektronika",
+      "descriptionRu": "Полезные детали и электроника для салона",
+      "descriptionAz": "Salon üçün faydalı detallar və elektronika",
+      "image": "",
+      "position": 0,
+      "visible": true
+    },
+    {
+      "id": "cmusxupmr0001c7qdmd71spri",
+      "slug": "mats",
+      "nameRu": "Коврики и багажник",
+      "nameAz": "Ayaqaltılar və baqaj",
+      "descriptionRu": "Порядок начинается с основы",
+      "descriptionAz": "Səliqə əsasdan başlayır",
+      "image": "",
+      "position": 1,
+      "visible": true
+    },
+    {
+      "id": "cmusxupms0002c7qdej6jas9w",
+      "slug": "seats",
+      "nameRu": "Чехлы и подушки",
+      "nameAz": "Örtüklər və yastıqlar",
+      "descriptionRu": "Забота о сиденьях и комфорте",
+      "descriptionAz": "Oturacaqlar və rahatlıq üçün",
+      "image": "",
+      "position": 2,
+      "visible": true
+    },
+    {
+      "id": "cmusxupmt0003c7qdfd5rvs9r",
+      "slug": "phone",
+      "nameRu": "Держатели и зарядки",
+      "nameAz": "Tutacaqlar və şarj cihazları",
+      "descriptionRu": "Всё нужное — под рукой",
+      "descriptionAz": "Lazım olan hər şey əlinizin altında",
+      "image": "",
+      "position": 3,
+      "visible": true
+    },
+    {
+      "id": "cmusxupmt0004c7qdyh14b78t",
+      "slug": "storage",
+      "nameRu": "Хранение и органайзеры",
+      "nameAz": "Saxlama və təşkilat",
+      "descriptionRu": "Каждой вещи своё место",
+      "descriptionAz": "Hər əşyanın öz yeri",
+      "image": "",
+      "position": 4,
+      "visible": true
+    },
+    {
+      "id": "cmusxupmu0005c7qdfkxwicqg",
+      "slug": "exterior",
+      "nameRu": "Внешние аксессуары",
+      "nameAz": "Xarici aksesuarlar",
+      "descriptionRu": "Детали для внешнего вида",
+      "descriptionAz": "Xarici görünüş üçün detallar",
+      "image": "",
+      "position": 5,
+      "visible": true
+    },
+    {
+      "id": "cmusxupmu0006c7qdcnl54efa",
+      "slug": "care",
+      "nameRu": "Уход и уборка",
+      "nameAz": "Qulluq və təmizlik",
+      "descriptionRu": "Внимание к чистоте автомобиля",
+      "descriptionAz": "Avtomobilin təmizliyinə qayğı",
+      "image": "",
+      "position": 6,
+      "visible": true
+    },
+    {
+      "id": "cmusxupmv0007c7qdpr16h4tu",
+      "slug": "travel",
+      "nameRu": "Поездки и комфорт",
+      "nameAz": "Səfərlər və rahatlıq",
+      "descriptionRu": "Для вас и ваших попутчиков",
+      "descriptionAz": "Sizin və yol yoldaşlarınız üçün",
+      "image": "",
+      "position": 7,
+      "visible": true
+    }
+  ],
+  "products": [
+    {
+      "id": "cmut1c2nn002rc71wff8hi23o",
+      "slug": "initial-46",
+      "nameRu": "Подушка для путешествий автомобильная",
+      "nameAz": "Подушка для путешествий автомобильная",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-46.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Поездки и комфорт",
+        "nameAz": "Səfərlər və rahatlıq",
+        "slug": "travel"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.228Z"
+    },
+    {
+      "id": "cmut1c2nn002tc71w8rgd92rb",
+      "slug": "initial-47",
+      "nameRu": "Сумка холодильник автомобильная",
+      "nameAz": "Сумка холодильник автомобильная",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-47.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Поездки и комфорт",
+        "nameAz": "Səfərlər və rahatlıq",
+        "slug": "travel"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.228Z"
+    },
+    {
+      "id": "cmut1c2no002vc71wpuj4kgie",
+      "slug": "initial-48",
+      "nameRu": "Набор автомобилиста дорожный аварийный",
+      "nameAz": "Набор автомобилиста дорожный аварийный",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-48.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Поездки и комфорт",
+        "nameAz": "Səfərlər və rahatlıq",
+        "slug": "travel"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.228Z"
+    },
+    {
+      "id": "cmut1c2nm002nc71www5fbnq3",
+      "slug": "initial-44",
+      "nameRu": "Щетка для чистки салона автомобиля",
+      "nameAz": "Щетка для чистки салона автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-44.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Уход и уборка",
+        "nameAz": "Qulluq və təmizlik",
+        "slug": "care"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.227Z"
+    },
+    {
+      "id": "cmut1c2nn002pc71w4rxeoler",
+      "slug": "initial-45",
+      "nameRu": "Полотенце для сушки автомобиля микрофибра",
+      "nameAz": "Полотенце для сушки автомобиля микрофибра",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-45.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Уход и уборка",
+        "nameAz": "Qulluq və təmizlik",
+        "slug": "care"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.227Z"
+    },
+    {
+      "id": "cmut1c2nl002hc71wkr6k9phg",
+      "slug": "initial-41",
+      "nameRu": "Автопылесос автомобильный",
+      "nameAz": "Автопылесос автомобильный",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-41.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Уход и уборка",
+        "nameAz": "Qulluq və təmizlik",
+        "slug": "care"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.226Z"
+    },
+    {
+      "id": "cmut1c2nm002jc71wxeny6nhy",
+      "slug": "initial-42",
+      "nameRu": "Насадка пеногенератор для мойки автомобиля",
+      "nameAz": "Насадка пеногенератор для мойки автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-42.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Уход и уборка",
+        "nameAz": "Qulluq və təmizlik",
+        "slug": "care"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.226Z"
+    },
+    {
+      "id": "cmut1c2nm002lc71wqzp19k18",
+      "slug": "initial-43",
+      "nameRu": "Губка для мойки автомобиля",
+      "nameAz": "Губка для мойки автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-43.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Уход и уборка",
+        "nameAz": "Qulluq və təmizlik",
+        "slug": "care"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.226Z"
+    },
+    {
+      "id": "cmut1c2nk002bc71wwt99enm0",
+      "slug": "initial-38",
+      "nameRu": "Набор кистей для детейлинга автомобиля",
+      "nameAz": "Набор кистей для детейлинга автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-38.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Уход и уборка",
+        "nameAz": "Qulluq və təmizlik",
+        "slug": "care"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.225Z"
+    },
+    {
+      "id": "cmut1c2nl002dc71w93yunzzz",
+      "slug": "initial-39",
+      "nameRu": "Перчатка для мойки автомобиля микрофибра",
+      "nameAz": "Перчатка для мойки автомобиля микрофибра",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-39.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Уход и уборка",
+        "nameAz": "Qulluq və təmizlik",
+        "slug": "care"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.225Z"
+    },
+    {
+      "id": "cmut1c2nl002fc71wdmmkiggt",
+      "slug": "initial-40",
+      "nameRu": "Щетка для дисков автомобиля",
+      "nameAz": "Щетка для дисков автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-40.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Уход и уборка",
+        "nameAz": "Qulluq və təmizlik",
+        "slug": "care"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.225Z"
+    },
+    {
+      "id": "cmut1c2nj0025c71wbgjy7qxd",
+      "slug": "initial-35",
+      "nameRu": "Солнцезащитный экран на боковое стекло автомобиля",
+      "nameAz": "Солнцезащитный экран на боковое стекло автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-35.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Внешние аксессуары",
+        "nameAz": "Xarici aksesuarlar",
+        "slug": "exterior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.224Z"
+    },
+    {
+      "id": "cmut1c2nk0027c71wphg3ps0f",
+      "slug": "initial-36",
+      "nameRu": "Щетка для снега автомобиля со скребком",
+      "nameAz": "Щетка для снега автомобиля со скребком",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-36.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Внешние аксессуары",
+        "nameAz": "Xarici aksesuarlar",
+        "slug": "exterior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.224Z"
+    },
+    {
+      "id": "cmut1c2nk0029c71wmjaxaf0a",
+      "slug": "initial-37",
+      "nameRu": "Микрофибра для автомобиля набор салфеток",
+      "nameAz": "Микрофибра для автомобиля набор салфеток",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-37.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Уход и уборка",
+        "nameAz": "Qulluq və təmizlik",
+        "slug": "care"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.224Z"
+    },
+    {
+      "id": "cmut1c2ni0021c71wraiu0jbw",
+      "slug": "initial-33",
+      "nameRu": "Дефлекторы окон автомобиля комплект",
+      "nameAz": "Дефлекторы окон автомобиля комплект",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-33.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Внешние аксессуары",
+        "nameAz": "Xarici aksesuarlar",
+        "slug": "exterior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.223Z"
+    },
+    {
+      "id": "cmut1c2nj0023c71w6bdhq7cd",
+      "slug": "initial-34",
+      "nameRu": "Защитная пленка на пороги автомобиля",
+      "nameAz": "Защитная пленка на пороги автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-34.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Внешние аксессуары",
+        "nameAz": "Xarici aksesuarlar",
+        "slug": "exterior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.223Z"
+    },
+    {
+      "id": "cmut1c2nh001vc71w3tv4jp44",
+      "slug": "initial-30",
+      "nameRu": "Органайзер на спинку сиденья авто",
+      "nameAz": "Органайзер на спинку сиденья авто",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-30.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Хранение и органайзеры",
+        "nameAz": "Saxlama və təşkilat",
+        "slug": "storage"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.222Z"
+    },
+    {
+      "id": "cmut1c2ni001xc71whlp17akx",
+      "slug": "initial-31",
+      "nameRu": "Сетка-карман на сиденье автомобиля",
+      "nameAz": "Сетка-карман на сиденье автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-31.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Хранение и органайзеры",
+        "nameAz": "Saxlama və təşkilat",
+        "slug": "storage"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.222Z"
+    },
+    {
+      "id": "cmut1c2ni001zc71w2kbqjtvf",
+      "slug": "initial-32",
+      "nameRu": "Брызговики универсальные автомобильные",
+      "nameAz": "Брызговики универсальные автомобильные",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-32.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Внешние аксессуары",
+        "nameAz": "Xarici aksesuarlar",
+        "slug": "exterior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.222Z"
+    },
+    {
+      "id": "cmut1c2ng001pc71wr3litfha",
+      "slug": "initial-27",
+      "nameRu": "Камера заднего вида автомобильная",
+      "nameAz": "Камера заднего вида автомобильная",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-27.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Держатели и зарядки",
+        "nameAz": "Tutacaqlar və şarj cihazları",
+        "slug": "phone"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.221Z"
+    },
+    {
+      "id": "cmut1c2nh001rc71wgysgd5i9",
+      "slug": "initial-28",
+      "nameRu": "Органайзер в багажник автомобиля складной",
+      "nameAz": "Органайзер в багажник автомобиля складной",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-28.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Хранение и органайзеры",
+        "nameAz": "Saxlama və təşkilat",
+        "slug": "storage"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.221Z"
+    },
+    {
+      "id": "cmut1c2nh001tc71wggngmb5r",
+      "slug": "initial-29",
+      "nameRu": "Сумка органайзер автомобильная в багажник",
+      "nameAz": "Сумка органайзер автомобильная в багажник",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-29.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Хранение и органайзеры",
+        "nameAz": "Saxlama və təşkilat",
+        "slug": "storage"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.221Z"
+    },
+    {
+      "id": "cmut1c2nf001jc71wghfzqmsf",
+      "slug": "initial-24",
+      "nameRu": "Зарядное устройство автомобильное Type C",
+      "nameAz": "Зарядное устройство автомобильное Type C",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-24.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Держатели и зарядки",
+        "nameAz": "Tutacaqlar və şarj cihazları",
+        "slug": "phone"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.220Z"
+    },
+    {
+      "id": "cmut1c2nf001lc71wf1sz5ngi",
+      "slug": "initial-25",
+      "nameRu": "Разветвитель прикуривателя автомобильный",
+      "nameAz": "Разветвитель прикуривателя автомобильный",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-25.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Держатели и зарядки",
+        "nameAz": "Tutacaqlar və şarj cihazları",
+        "slug": "phone"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.220Z"
+    },
+    {
+      "id": "cmut1c2ng001nc71wpv4j4n7o",
+      "slug": "initial-26",
+      "nameRu": "Держатель телефона в подстаканник авто",
+      "nameAz": "Держатель телефона в подстаканник авто",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-26.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Держатели и зарядки",
+        "nameAz": "Tutacaqlar və şarj cihazları",
+        "slug": "phone"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.220Z"
+    },
+    {
+      "id": "cmut1c2ne001fc71wlqymt4x2",
+      "slug": "initial-22",
+      "nameRu": "Держатель телефона магнитный авто",
+      "nameAz": "Держатель телефона магнитный авто",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-22.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Держатели и зарядки",
+        "nameAz": "Tutacaqlar və şarj cihazları",
+        "slug": "phone"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.219Z"
+    },
+    {
+      "id": "cmut1c2nf001hc71wp3ahisz5",
+      "slug": "initial-23",
+      "nameRu": "Зарядное устройство автомобильное USB",
+      "nameAz": "Зарядное устройство автомобильное USB",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-23.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Держатели и зарядки",
+        "nameAz": "Tutacaqlar və şarj cihazları",
+        "slug": "phone"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.219Z"
+    },
+    {
+      "id": "cmut1c2nd0019c71woj4vjior",
+      "slug": "initial-19",
+      "nameRu": "Защитный коврик под детское автокресло",
+      "nameAz": "Защитный коврик под детское автокресло",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-19.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Чехлы и подушки",
+        "nameAz": "Örtüklər və yastıqlar",
+        "slug": "seats"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.218Z"
+    },
+    {
+      "id": "cmut1c2ne001bc71wrujtz254",
+      "slug": "initial-20",
+      "nameRu": "Держатель телефона в авто на воздуховод",
+      "nameAz": "Держатель телефона в авто на воздуховод",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-20.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Держатели и зарядки",
+        "nameAz": "Tutacaqlar və şarj cihazları",
+        "slug": "phone"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.218Z"
+    },
+    {
+      "id": "cmut1c2ne001dc71wdzw5vx9f",
+      "slug": "initial-21",
+      "nameRu": "Держатель телефона на присоске автомобиль",
+      "nameAz": "Держатель телефона на присоске автомобиль",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-21.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Держатели и зарядки",
+        "nameAz": "Tutacaqlar və şarj cihazları",
+        "slug": "phone"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.218Z"
+    },
+    {
+      "id": "cmut1c2nc0013c71wq2xns2v1",
+      "slug": "initial-16",
+      "nameRu": "Накидка на сиденье автомобиля",
+      "nameAz": "Накидка на сиденье автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-16.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Чехлы и подушки",
+        "nameAz": "Örtüklər və yastıqlar",
+        "slug": "seats"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.217Z"
+    },
+    {
+      "id": "cmut1c2nd0015c71wm8lsxuwl",
+      "slug": "initial-17",
+      "nameRu": "Подушка поясничная в автомобиль",
+      "nameAz": "Подушка поясничная в автомобиль",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-17.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Чехлы и подушки",
+        "nameAz": "Örtüklər və yastıqlar",
+        "slug": "seats"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.217Z"
+    },
+    {
+      "id": "cmut1c2nd0017c71wbavgbtam",
+      "slug": "initial-18",
+      "nameRu": "Подушка автомобильная на шею",
+      "nameAz": "Подушка автомобильная на шею",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-18.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Чехлы и подушки",
+        "nameAz": "Örtüklər və yastıqlar",
+        "slug": "seats"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.217Z"
+    },
+    {
+      "id": "cmut1c2nb000xc71w7226d3vh",
+      "slug": "initial-13",
+      "nameRu": "Коврик в багажник универсальный автомобиль",
+      "nameAz": "Коврик в багажник универсальный автомобиль",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-13.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Коврики и багажник",
+        "nameAz": "Ayaqaltılar və baqaj",
+        "slug": "mats"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.216Z"
+    },
+    {
+      "id": "cmut1c2nc000zc71w8pr9cfin",
+      "slug": "initial-14",
+      "nameRu": "Сетка в багажник автомобиля",
+      "nameAz": "Сетка в багажник автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-14.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Коврики и багажник",
+        "nameAz": "Ayaqaltılar və baqaj",
+        "slug": "mats"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.216Z"
+    },
+    {
+      "id": "cmut1c2nc0011c71wdu0i6r3s",
+      "slug": "initial-15",
+      "nameRu": "Чехлы на сиденья автомобиля универсальные",
+      "nameAz": "Чехлы на сиденья автомобиля универсальные",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-15.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Чехлы и подушки",
+        "nameAz": "Örtüklər və yastıqlar",
+        "slug": "seats"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.216Z"
+    },
+    {
+      "id": "cmut1c2na000tc71whjj6kmil",
+      "slug": "initial-11",
+      "nameRu": "Коврики EVA в салон автомобиля",
+      "nameAz": "Коврики EVA в салон автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-11.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Коврики и багажник",
+        "nameAz": "Ayaqaltılar və baqaj",
+        "slug": "mats"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.215Z"
+    },
+    {
+      "id": "cmut1c2nb000vc71w8obpkch4",
+      "slug": "initial-12",
+      "nameRu": "Резиновые коврики универсальные автомобиль",
+      "nameAz": "Резиновые коврики универсальные автомобиль",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-12.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Коврики и багажник",
+        "nameAz": "Ayaqaltılar və baqaj",
+        "slug": "mats"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.215Z"
+    },
+    {
+      "id": "cmut1c2n9000nc71wugyigbpd",
+      "slug": "initial-08",
+      "nameRu": "Ароматизатор в дефлектор автомобиля",
+      "nameAz": "Ароматизатор в дефлектор автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-08.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.214Z"
+    },
+    {
+      "id": "cmut1c2na000pc71wd66das5l",
+      "slug": "initial-09",
+      "nameRu": "Автомобильная подушка на подголовник",
+      "nameAz": "Автомобильная подушка на подголовник",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-09.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.214Z"
+    },
+    {
+      "id": "cmut1c2na000rc71wu0gdtabb",
+      "slug": "initial-10",
+      "nameRu": "Карман сетка на боковину салона автомобиля",
+      "nameAz": "Карман сетка на боковину салона автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-10.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.214Z"
+    },
+    {
+      "id": "cmut1c2n8000jc71wmwfrmrke",
+      "slug": "initial-06",
+      "nameRu": "Крючки на подголовник автомобиля набор",
+      "nameAz": "Крючки на подголовник автомобиля набор",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-06.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.213Z"
+    },
+    {
+      "id": "cmut1c2n9000lc71wotulo4w4",
+      "slug": "initial-07",
+      "nameRu": "Зеркало автомобильное салонное дополнительное",
+      "nameAz": "Зеркало автомобильное салонное дополнительное",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-07.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.213Z"
+    },
+    {
+      "id": "cmut1c2n7000fc71we9sbo75v",
+      "slug": "initial-04",
+      "nameRu": "Накладка на порог автомобиля защитная",
+      "nameAz": "Накладка на порог автомобиля защитная",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-04.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.212Z"
+    },
+    {
+      "id": "cmut1c2n8000hc71whde696ly",
+      "slug": "initial-05",
+      "nameRu": "Солнцезащитная шторка на лобовое стекло авто",
+      "nameAz": "Солнцезащитная шторка на лобовое стекло авто",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-05.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.212Z"
+    },
+    {
+      "id": "cmut1c2n6000bc71wv8vdo3ga",
+      "slug": "initial-02",
+      "nameRu": "Коврик на приборную панель нескользящий автомобиль",
+      "nameAz": "Коврик на приборную панель нескользящий автомобиль",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-02.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.211Z"
+    },
+    {
+      "id": "cmut1c2n7000dc71waljn4fwi",
+      "slug": "initial-03",
+      "nameRu": "Оплетка на руль автомобиля универсальная",
+      "nameAz": "Оплетка на руль автомобиля универсальная",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-03.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.211Z"
+    },
+    {
+      "id": "cmut1c2n40009c71w2tbn4i4g",
+      "slug": "initial-01",
+      "nameRu": "Вкладыш органайзер в щель сиденья автомобиля",
+      "nameAz": "Вкладыш органайзер в щель сиденья автомобиля",
+      "descriptionRu": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "descriptionAz": "Rusiya marketplace-indən kataloq məhsulu. Komplektasiya, ölçü və uyğunluq sifarişdən əvvəl təchizatçı tərəfindən təsdiqlənir.",
+      "price": null,
+      "images": [
+        "/product-images/product-01.webp"
+      ],
+      "available": true,
+      "status": "PUBLISHED",
+      "reviewed": true,
+      "category": {
+        "nameRu": "Салон и электроника",
+        "nameAz": "Salon və elektronika",
+        "slug": "interior"
+      },
+      "compatibility": [],
+      "createdAt": "2026-10-03T23:40:42.208Z"
+    }
+  ]
+}
