@@ -79,6 +79,11 @@ export default async function StoreLayout({
                       {s.data.phone}
                     </a>
                   )}
+                  {local(s.data.hours, locale) && (
+                    <span className="footer-hours">
+                      {locale === "az" ? "İş saatları" : "Часы работы"}: {local(s.data.hours, locale)}
+                    </span>
+                  )}
                 </div>
                 <nav>
                   {s.data.navigation

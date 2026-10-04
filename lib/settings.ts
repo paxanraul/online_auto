@@ -60,7 +60,7 @@ export const defaults: SiteData = {
     ru: "44 Neftçilər Prospekti, Bakı, Азербайджан",
     az: "44 Neftçilər Prospekti, Bakı, Azərbaycan",
   },
-  hours: { ru: "", az: "" },
+  hours: { ru: "10:00–17:00", az: "10:00–17:00" },
   footer: {
     ru: "Аксессуары для повседневных поездок.",
     az: "Gündəlik səfərlər üçün aksesuarlar.",
