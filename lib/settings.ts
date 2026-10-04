@@ -66,8 +66,8 @@ export const defaults: SiteData = {
     az: "Gündəlik səfərlər üçün aksesuarlar.",
   },
   maintenanceTitle: {
-    ru: "Скоро снова в дороге",
-    az: "Tezliklə yenidən yoldayıq",
+    ru: "Технические работы",
+    az: "Texniki işlər",
   },
   maintenanceMessage: {
     ru: "Мы обновляем магазин. Пожалуйста, загляните чуть позже.",
