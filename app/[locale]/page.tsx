@@ -30,6 +30,7 @@ export default async function Home({
   const s = await settings();
   const categories = snapshot.categories;
   const preview = false;
+  const maintenance = s.maintenance;
   const products = snapshot.products.filter(p => !s.data.featured.length || s.data.featured.includes(p.id)).slice(0,8);
   const d = dictionary(locale);
   const suffix = preview ? "?preview=1" : "";
@@ -46,11 +47,21 @@ export default async function Home({
   return (
     <main>
       {preview && <div className="preview-banner">{d.preview}</div>}
+      {maintenance && (
+        <section className="container maintenance-hero" aria-labelledby="maintenance-title">
+          <p className="eyebrow"><span className="orange-line" />{d.maintenanceEyebrow}</p>
+          <h1 id="maintenance-title">{local(s.data.maintenanceTitle, locale)}</h1>
+          <p>{local(s.data.maintenanceMessage, locale)}</p>
+          <Link className="text-link" href={`/${locale}/catalog${suffix}`}>
+            {d.allCategories}
+          </Link>
+        </section>
+      )}
       {s.data.sections
         .filter((section) => section.visible)
         .map((section) => {
           if (section.id === "intro")
-            return (
+            return maintenance ? null : (
               <section className="container hero" key={section.id}>
                 <div className="hero-copy">
                   <p className="eyebrow">

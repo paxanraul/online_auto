@@ -101,8 +101,7 @@ export function StoreHeader({
                   {d.catalog} · {d.contacts} · {d.language}
                 </DialogDescription>
                 <nav aria-label={d.menu}>
-                  {!maintenance &&
-                    data.navigation
+                  {data.navigation
                       .filter((n) => n.visible)
                       .map((n, i) => (
                         <Link
@@ -114,7 +113,7 @@ export function StoreHeader({
                           {local(n.label, locale)}
                         </Link>
                       ))}
-                  {!maintenance && (
+                  {(
                     <div className="menu-categories">
                       {categories.map((c) => (
                         <Link
@@ -165,7 +164,7 @@ export function StoreHeader({
           </div>
         </div>
       </header>
-      {!maintenance && (
+      {(
         <div className="catalog-nav">
           <div className="container">
             <Link

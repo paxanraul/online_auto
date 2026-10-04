@@ -5,8 +5,6 @@ import { settings, local, type Locale } from "@/lib/settings";
 import { snapshot } from "@/lib/snapshot";
 import { StoreProvider } from "@/components/store-provider";
 import { StoreHeader } from "@/components/store-header";
-import { ContactSection } from "@/components/contact-section";
-import { dictionary } from "@/lib/i18n";
 import { googleMapsUrl } from "@/lib/maps";
 export function generateStaticParams() { return [{locale:"ru"}, {locale:"az"}]; }
 export async function generateMetadata({
@@ -40,8 +38,7 @@ export default async function StoreLayout({
   const s = await settings();
   const admin = false;
   const categories = snapshot.categories;
-  const maintenance = s.maintenance && !admin;
-  const d = dictionary(locale);
+  const maintenance = s.maintenance;
   return (
     <StoreProvider locale={locale} currency={s.currency}>
       <div
@@ -57,25 +54,7 @@ export default async function StoreLayout({
             admin={!!admin}
           />
         </Suspense>
-        {maintenance ? (
-          <main className="maintenance">
-            <div className="maintenance-logo">
-              <img src={s.data.logo} width={72} height={72} alt="" />
-            </div>
-            <p className="eyebrow">{local(s.data.tagline, locale)}</p>
-            <h1>{local(s.data.maintenanceTitle, locale)}</h1>
-            <p>{local(s.data.heroDescription, locale)}</p>
-            <p>{local(s.data.maintenanceMessage, locale)}</p>
-            <ContactSection data={s.data} locale={locale} />
-          </main>
-        ) : (
-          <>
-            {s.maintenance && admin && (
-              <div className="preview-banner">
-                Режим обслуживания включён. Вы видите магазин как администратор.
-              </div>
-            )}
-            {children}
+        {children}
             <footer className="store-footer">
               <div className="container footer-inner">
                 <div className="brand">
@@ -115,8 +94,6 @@ export default async function StoreLayout({
                 </span>
               </div>
             </footer>
-          </>
-        )}
       </div>
     </StoreProvider>
   );

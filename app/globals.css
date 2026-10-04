@@ -2889,3 +2889,32 @@ tbody tr:last-child td {
     scroll-behavior: auto !important;
   }
 }
+
+/* The maintenance message replaces only the hero; the catalog stays visible. */
+.maintenance-hero {
+  min-height: 390px;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.maintenance-hero .eyebrow { margin-bottom: 22px; }
+.maintenance-hero h1 {
+  max-width: 730px;
+  margin: 0 0 18px;
+  font-size: clamp(2.4rem, 5vw, 4rem);
+  line-height: 1.08;
+  letter-spacing: -0.055em;
+}
+.maintenance-hero > p:not(.eyebrow) {
+  max-width: 570px;
+  margin: 0 0 25px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+@media (max-width: 640px) {
+  .maintenance-hero { min-height: 330px; padding-top: 54px; padding-bottom: 48px; }
+}
