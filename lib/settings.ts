@@ -56,7 +56,10 @@ export const defaults: SiteData = {
   featuredTitle: { ru: "В центре внимания", az: "Diqqət mərkəzində" },
   contactsTitle: { ru: "Будем на связи", az: "Əlaqədə olaq" },
   business: { ru: "", az: "" },
-  address: { ru: "", az: "" },
+  address: {
+    ru: "44 Neftçilər Prospekti, Bakı, Азербайджан",
+    az: "44 Neftçilər Prospekti, Bakı, Azərbaycan",
+  },
   hours: { ru: "", az: "" },
   footer: {
     ru: "Аксессуары для повседневных поездок.",
@@ -93,7 +96,7 @@ export const defaults: SiteData = {
   logo: "/logo.svg",
   favicon: "/logo.svg",
   heroImage: "/hero.webp",
-  phone: "",
+  phone: "+994 77 572-53-33",
   whatsapp: "",
   accent: "#c74416",
   featured: [],

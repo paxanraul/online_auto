@@ -7,6 +7,7 @@ import { StoreProvider } from "@/components/store-provider";
 import { StoreHeader } from "@/components/store-header";
 import { ContactSection } from "@/components/contact-section";
 import { dictionary } from "@/lib/i18n";
+import { googleMapsUrl } from "@/lib/maps";
 export function generateStaticParams() { return [{locale:"ru"}, {locale:"az"}]; }
 export async function generateMetadata({
   params,
@@ -83,6 +84,22 @@ export default async function StoreLayout({
                     {local(s.data.name, locale)}
                     <small>{local(s.data.footer, locale)}</small>
                   </span>
+                </div>
+                <div className="footer-contact">
+                  {local(s.data.address, locale) && (
+                    <a
+                      href={googleMapsUrl(local(s.data.address, locale))}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {local(s.data.address, locale)}
+                    </a>
+                  )}
+                  {s.data.phone && (
+                    <a href={`tel:${s.data.phone.replace(/[^+\d]/g, "")}`}>
+                      {s.data.phone}
+                    </a>
+                  )}
                 </div>
                 <nav>
                   {s.data.navigation

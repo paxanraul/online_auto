@@ -36,8 +36,8 @@
         "ru": ""
       },
       "address": {
-        "az": "",
-        "ru": ""
+        "az": "44 Neftçilər Prospekti, Bakı, Azərbaycan",
+        "ru": "44 Neftçilər Prospekti, Bakı, Азербайджан"
       },
       "hours": {
         "az": "",
@@ -90,7 +90,7 @@
       "logo": "/logo.svg",
       "favicon": "/logo.svg",
       "heroImage": "/hero.webp",
-      "phone": "",
+      "phone": "+994 77 572-53-33",
       "whatsapp": "",
       "accent": "#c74416",
       "featured": [],
