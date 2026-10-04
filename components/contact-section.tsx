@@ -1,4 +1,4 @@
-import { ArrowUpRight, MapPin, MessageCircle, Phone } from "lucide-react";
+import { ArrowUpRight, MapPin, MessageCircle, Phone, Clock } from "lucide-react";
 import { local, type Locale, type SiteData } from "@/lib/settings";
 import { dictionary } from "@/lib/i18n";
 import { googleMapsUrl, mapsQuery } from "@/lib/maps";
@@ -37,7 +37,15 @@ export function ContactSection({
             </div>
           </div>
         )}
-        {local(data.hours, locale) && <p>{local(data.hours, locale)}</p>}
+        {local(data.hours, locale) && (
+          <div className="contact-detail">
+            <span className="contact-detail-icon"><Clock size={20} strokeWidth={1.8} aria-hidden="true" /></span>
+            <div>
+              <span className="contact-detail-label">{locale === "az" ? "İş saatları" : "Часы работы"}</span>
+              <span className="contact-detail-value">{local(data.hours, locale)}</span>
+            </div>
+          </div>
+        )}
         {!data.phone && !data.whatsapp && !address && !local(data.business, locale) && (
           <p>{d.noContacts}</p>
         )}

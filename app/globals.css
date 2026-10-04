@@ -642,7 +642,8 @@ legend {
   font-size: 0.75rem;
   margin-bottom: 2px;
 }
-.contact-detail a {
+.contact-detail a,
+.contact-detail-value {
   color: var(--ink);
   font-size: 0.9375rem;
   font-weight: 650;
