@@ -47,7 +47,12 @@ export function StoreProvider({
             items: parsed.items
               .filter(
                 (i: CartItem) =>
+                  i !== null &&
+                  typeof i === "object" &&
                   typeof i.id === "string" &&
+                  typeof i.slug === "string" &&
+                  typeof i.nameAz === "string" &&
+                  typeof i.image === "string" &&
                   typeof i.nameRu === "string" &&
                   typeof i.price === "string" &&
                   Number.isFinite(Number(i.price)) &&
@@ -67,7 +72,11 @@ export function StoreProvider({
   }, [locale]);
   const setCart = (next: Cart) => {
     update(next);
-    localStorage.setItem("autoshop-cart-v1", JSON.stringify(next));
+    try {
+      localStorage.setItem("autoshop-cart-v1", JSON.stringify(next));
+    } catch {
+      // Keep the cart usable when the browser blocks storage or the quota is full.
+    }
   };
   const add = (item: Omit<CartItem, "quantity">, quantity: number) => {
     const prior = cart.items.find((i) => i.id === item.id);
