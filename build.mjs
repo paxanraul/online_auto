@@ -10,15 +10,16 @@ const esc = (value) => String(value).replace(/[&<>"']/g, (char) => ({
   "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;",
 }[char]));
 const categoryName = new Map(data.categories.map((item) => [item.slug, item.nameRu]));
+// Original storefront icons, rendered as SVG for consistent mobile appearance.
 const categoryIcons = [
-  '<rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 4v16M15 4v16M4 9h16M4 15h16"/>',
-  '<path d="m4 8 16-2-4 12H2z"/><path d="M6 8 4 18"/>',
-  '<path d="M5 4h14a2 2 0 0 1 2 2v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a2 2 0 0 1 2-2Z"/><path d="M8 8h8v8H8z"/>',
-  '<rect x="8" y="3" width="8" height="18" rx="2"/><path d="M11 17h2"/>',
-  '<path d="M4 7h16l-1 14H5L4 7Z"/><path d="M9 7V5a3 3 0 0 1 6 0v2"/>',
-  '<path d="M3 14 8 8l4 4 4-6 5 8"/><path d="M4 18h16"/>',
-  '<path d="M4 14a8 8 0 0 1 16 0v5H4v-5Z"/><path d="M8 14h.01M12 14h.01M16 14h.01"/>',
-  '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+  "<rect width=\"7\" height=\"7\" x=\"3\" y=\"3\" rx=\"1\"></rect><rect width=\"7\" height=\"7\" x=\"14\" y=\"3\" rx=\"1\"></rect><rect width=\"7\" height=\"7\" x=\"14\" y=\"14\" rx=\"1\"></rect><rect width=\"7\" height=\"7\" x=\"3\" y=\"14\" rx=\"1\"></rect>",
+  "<path d=\"M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z\"></path><path d=\"M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12\"></path><path d=\"M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17\"></path>",
+  "<path d=\"M19 9V6a2 2 0 0 0-2-2H7a2 2 0 0 0-2 2v3\"></path><path d=\"M3 16a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-4 0v1.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V11a2 2 0 0 0-4 0z\"></path><path d=\"M5 18v2\"></path><path d=\"M19 18v2\"></path>",
+  "<rect width=\"14\" height=\"20\" x=\"5\" y=\"2\" rx=\"2\" ry=\"2\"></rect><path d=\"M12 18h.01\"></path>",
+  "<path d=\"M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73z\"></path><path d=\"M12 22V12\"></path><polyline points=\"3.29 7 12 12 20.71 7\"></polyline><path d=\"m7.5 4.27 9 5.15\"></path>",
+  "<path d=\"M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2\"></path><circle cx=\"7\" cy=\"17\" r=\"2\"></circle><path d=\"M9 17h6\"></path><circle cx=\"17\" cy=\"17\" r=\"2\"></circle>",
+  "<path d=\"M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z\"></path><path d=\"M20 2v4\"></path><path d=\"M22 4h-4\"></path><circle cx=\"4\" cy=\"20\" r=\"2\"></circle>",
+  "<circle cx=\"12\" cy=\"12\" r=\"10\"></circle><path d=\"m16.24 7.76-1.804 5.411a2 2 0 0 1-1.265 1.265L7.76 16.24l1.804-5.411a2 2 0 0 1 1.265-1.265z\"></path>"
 ];
 const categories = data.categories.map((item, index) => `
   <button class="category-card" type="button" data-category="${esc(item.slug)}">
@@ -50,15 +51,16 @@ const html = `<!doctype html>
   <style>
     :root{--ink:#20252b;--muted:#747b83;--line:#e4e7ea;--soft:#f5f6f7;--accent:#c94012;--accent-dark:#a93612;--max:1200px}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--ink);font:15px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#fff}a{color:inherit;text-decoration:none}button,input{font:inherit}.wrap{width:min(var(--max),calc(100% - 48px));margin:auto}
-    .topbar{height:82px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:28px}.brand{display:flex;align-items:center;gap:12px;min-width:245px}.brand img{width:42px;height:42px}.brand-name{font-size:14px;font-weight:800;line-height:1.2}.brand-tag{font-size:11px;color:var(--muted);margin-top:4px}.searchbox{height:44px;flex:1;position:relative}.searchbox input{width:100%;height:100%;border:0;border-radius:12px;background:#f3f4f5;padding:0 48px 0 48px;outline:0}.searchbox input:focus{box-shadow:0 0 0 2px #f0b39f}.searchbox svg{position:absolute;left:16px;top:12px;color:#717982}.top-link{font-size:13px;font-weight:650;white-space:nowrap}.top-link:hover{color:var(--accent)}.menu-button{display:none}
-    .menu-button svg{width:22px;height:22px;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none}.category-icon svg{width:20px;height:20px;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;fill:none}
+    .topbar{height:82px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:28px}.brand{display:flex;align-items:center;gap:12px;min-width:245px}.brand img{width:42px;height:42px}.brand-name{font-size:14px;font-weight:800;line-height:1.2}.brand-tag{font-size:11px;color:var(--muted);margin-top:4px}.searchbox{height:44px;flex:1;position:relative}.searchbox input{width:100%;height:100%;border:0;border-radius:12px;background:#f3f4f5;padding:0 48px 0 48px;outline:0}.searchbox input:focus{box-shadow:0 0 0 2px #f0b39f}.searchbox svg{position:absolute;left:16px;top:12px;color:#717982}.top-link{font-size:13px;font-weight:650;white-space:nowrap}.top-link:hover{color:var(--accent)}.menu-button{flex-shrink:0;width:44px;height:44px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--ink);display:grid;place-items:center;cursor:pointer}
+    .menu-button svg{width:22px;height:22px;stroke:currentColor;stroke-width:2;stroke-linecap:round;fill:none}.category-icon svg{width:24px;height:24px;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round;fill:none}
+    .catalog-nav-all{display:flex;align-items:center;gap:8px}.menu-dialog{margin:0 0 0 auto;position:fixed;inset:0;width:min(380px,calc(100% - 24px));height:100dvh;max-height:none;max-width:none;border:0;padding:24px;background:#fff;color:var(--ink);overflow-y:auto;box-shadow:-10px 0 40px #0002}.menu-dialog::backdrop{background:#20252b70}.menu-heading{display:flex;align-items:center;justify-content:space-between;margin-bottom:24px}.menu-heading h2{font-size:24px;margin:0}.menu-close{height:44px;width:44px;border:1px solid var(--line);border-radius:10px;background:#fff;display:grid;place-items:center;color:var(--ink);cursor:pointer}.menu-close svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}.menu-dialog nav{display:grid}.menu-dialog nav a{padding:15px 0;border-bottom:1px solid var(--line);font-size:14px;font-weight:650}.menu-dialog nav a:hover{color:var(--accent)}body:has(.menu-dialog[open]){overflow:hidden}
     .nav{height:52px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:28px;overflow-x:auto;white-space:nowrap}.nav a{font-size:12px;font-weight:650;color:#626a72}.nav a:first-child{color:var(--accent)}.nav a:hover{color:var(--accent)}
     .hero{display:grid;grid-template-columns:.94fr 1.06fr;align-items:center;gap:48px;padding:36px 0 52px}.eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:800;color:#656d75;display:flex;align-items:center;gap:10px}.eyebrow:before{content:"";width:20px;height:2px;background:var(--accent)}h1{font-size:clamp(38px,5vw,58px);line-height:1.04;letter-spacing:-.055em;margin:20px 0 18px;max-width:560px}.hero-copy p{color:#666f77;max-width:440px;margin:0 0 24px}.primary{display:inline-flex;align-items:center;justify-content:center;border-radius:9px;padding:13px 21px;background:var(--accent);color:white;font-size:13px;font-weight:750;transition:background .15s,transform .15s}.primary:hover{background:var(--accent-dark);transform:translateY(-1px)}.hero-note{margin-top:17px;color:#8a9096;font-size:11px}.hero-visual{height:340px;position:relative;border-radius:16px;overflow:hidden;background:#e8eaec}.hero-visual img{width:100%;height:100%;object-fit:cover}.hero-caption{position:absolute;bottom:17px;left:20px;color:white;font-size:12px;font-weight:650;text-shadow:0 1px 8px #0008;border-left:2px solid var(--accent);padding-left:10px}
-    .section{padding:8px 0 54px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:23px}.section-kicker{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#747b83;font-weight:800}.section h2{font-size:29px;letter-spacing:-.04em;line-height:1.15;margin:8px 0 0}.text-link{font-size:12px;font-weight:750;color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap}.category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.category-card{padding:17px 18px 18px;border:1px solid var(--line);border-radius:12px;background:#fafbfc;text-align:left;min-height:143px;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;transition:border-color .15s,background .15s}.category-card:hover{border-color:#e9a48e;background:#fff}.category-top{display:flex;align-items:center;justify-content:space-between;width:100%;margin-bottom:13px}.category-icon{height:38px;width:38px;border:1px solid var(--line);border-radius:10px;background:white;display:grid;place-items:center;color:#606971}.category-number{font-size:10px;color:#abb1b7;font-weight:700}.category-card strong{font-size:13px;line-height:1.3}.category-card>span:last-child{font-size:11px;color:#777f87;margin-top:5px}
+    .section{padding:8px 0 54px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:23px}.section-kicker{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#747b83;font-weight:800}.section h2{font-size:29px;letter-spacing:-.04em;line-height:1.15;margin:8px 0 0}.text-link{font-size:12px;font-weight:750;color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap}.category-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.category-card{color:var(--ink);appearance:none;-webkit-appearance:none;padding:17px 18px 18px;border:1px solid var(--line);border-radius:12px;background:#fafbfc;text-align:left;min-height:143px;cursor:pointer;display:flex;flex-direction:column;align-items:flex-start;transition:border-color .15s,background .15s}.category-card:hover{border-color:#e9a48e;background:#fff}.category-top{display:flex;align-items:center;justify-content:space-between;width:100%;margin-bottom:13px}.category-icon{height:46px;width:46px;border:1px solid var(--line);border-radius:10px;background:white;display:grid;place-items:center;color:#606971}.category-number{font-size:10px;color:#abb1b7;font-weight:700}.category-card strong{font-size:13px;line-height:1.3}.category-card>span:last-child{font-size:11px;color:#777f87;margin-top:5px}
     .catalog-section{padding-top:6px}.catalog-head{align-items:center}.result-count{font-size:12px;color:var(--muted);margin-top:7px}.filters{display:flex;gap:8px;overflow-x:auto;padding:3px 0 15px;scrollbar-width:thin}.filter-chip{border:1px solid var(--line);border-radius:999px;background:white;padding:8px 13px;color:#5c646c;font-size:11px;font-weight:650;white-space:nowrap;cursor:pointer}.filter-chip:hover,.filter-chip.active{background:var(--ink);border-color:var(--ink);color:white}.products{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}.product-card{border:1px solid var(--line);border-radius:13px;overflow:hidden;background:#fff;min-width:0;transition:box-shadow .15s,transform .15s}.product-card:hover{box-shadow:0 8px 24px #1e293b12;transform:translateY(-2px)}.product-card[hidden]{display:none}.product-picture{position:relative;display:block;background:#f4f5f6;aspect-ratio:1.12/1;padding:12px;overflow:hidden}.product-picture img{height:100%;width:100%;object-fit:contain;mix-blend-mode:multiply}.product-info{padding:13px 14px 14px}.product-category{font-size:10px;color:#858c92}.product-info h3{font-size:13px;line-height:1.35;min-height:36px;margin:7px 0 18px;font-weight:700}.product-bottom{display:flex;justify-content:space-between;align-items:center;gap:8px}.product-bottom strong{font-size:12px}.product-bottom a{font-size:10px;color:var(--accent);font-weight:750;text-decoration:underline;text-underline-offset:3px;white-space:nowrap}.empty{display:none;padding:38px;border:1px dashed var(--line);border-radius:12px;text-align:center;color:var(--muted)}.empty.visible{display:block}
     .footer{background:#f5f6f7;margin-top:35px;padding:31px 0 20px}.footer-main{display:flex;justify-content:space-between;gap:20px;align-items:start}.footer h2{font-size:21px;letter-spacing:-.03em;margin:0 0 5px}.footer p{font-size:12px;color:#707880;margin:0}.footer-nav{display:flex;gap:22px;font-size:11px;color:#656d75}.footer-bottom{border-top:1px solid #e3e6e8;margin-top:24px;padding-top:15px;display:flex;justify-content:space-between;gap:14px;color:#858c92;font-size:10px}.demo-note{font-size:10px;color:#737b82;padding:11px 0 0}
     @media(max-width:900px){.wrap{width:min(var(--max),calc(100% - 36px))}.brand{min-width:195px}.topbar{gap:18px}.nav{gap:20px}.hero{gap:28px}.hero-visual{height:300px}.category-grid{grid-template-columns:repeat(4,1fr)}.products{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}}
-    @media(max-width:640px){.wrap{width:calc(100% - 32px)}.topbar{height:auto;min-height:70px;display:grid;grid-template-columns:1fr auto auto;gap:10px;padding:12px 0}.brand{min-width:0}.brand img{width:38px;height:38px}.brand-name{font-size:13px}.searchbox{grid-column:1/-1;grid-row:2;height:42px}.top-link{font-size:0;width:36px;height:36px;border:1px solid var(--line);border-radius:9px;display:grid;place-items:center}.top-link:after{content:"⌕";font-size:22px}.menu-button{width:38px;height:38px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);display:grid;place-items:center;cursor:pointer}.nav{height:0;overflow:hidden;opacity:0;visibility:hidden;pointer-events:none;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 12px;white-space:normal;border:0;transition:height .2s ease,opacity .16s ease,visibility .16s}.nav.is-open{height:auto;max-height:70vh;overflow-y:auto;opacity:1;visibility:visible;pointer-events:auto;padding:4px 0 13px;border-bottom:1px solid var(--line)}.nav a{padding:10px 2px;border-bottom:1px solid #f0f1f2;font-size:12px}.nav a:first-child{color:var(--accent)}.hero{display:flex;flex-direction:column;align-items:stretch;gap:23px;padding:28px 0 37px}.hero-copy p{font-size:13px}.hero-visual{height:auto;aspect-ratio:1.34/1}.hero h1{font-size:42px}.section{padding-bottom:37px}.section h2{font-size:25px}.section-head{margin-bottom:17px}.category-grid{grid-template-columns:repeat(2,1fr);gap:9px}.category-card{min-height:133px;padding:13px}.category-card strong{font-size:12px}.category-card>span:last-child{font-size:10px}.category-icon{width:40px;height:40px;border-radius:12px}.category-icon svg{width:21px;height:21px;stroke-width:1.8}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.product-picture{aspect-ratio:.94/1;padding:8px}.product-info{padding:10px}.product-info h3{font-size:12px;min-height:48px;margin:6px 0 13px}.product-bottom strong{font-size:11px}.product-bottom a{font-size:9px}.footer-main{display:block}.footer-nav{margin-top:19px}.footer-bottom{font-size:9px}}
+    @media(max-width:640px){.wrap{width:calc(100% - 32px)}.topbar{height:auto;min-height:70px;display:grid;grid-template-columns:1fr auto auto;gap:10px;padding:12px 0}.brand{min-width:0}.brand img{width:38px;height:38px}.brand-name{font-size:13px}.searchbox{grid-column:1/-1;grid-row:2;height:42px}.top-link{font-size:0;width:36px;height:36px;border:1px solid var(--line);border-radius:9px;display:grid;place-items:center}.top-link:after{content:"⌕";font-size:22px}.menu-button{width:38px;height:38px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--ink);display:grid;place-items:center;cursor:pointer}.nav{display:none}.hero{display:flex;flex-direction:column;align-items:stretch;gap:23px;padding:28px 0 37px}.hero-copy p{font-size:13px}.hero-visual{height:auto;aspect-ratio:1.34/1}.hero h1{font-size:42px}.section{padding-bottom:37px}.section h2{font-size:25px}.section-head{margin-bottom:17px}.category-grid{grid-template-columns:repeat(2,1fr);gap:9px}.category-card{min-height:133px;padding:13px}.category-card strong{font-size:12px}.category-card>span:last-child{font-size:10px}.category-icon{width:40px;height:40px;border-radius:12px}.category-icon svg{width:24px;height:24px;stroke-width:1.7}.products{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.product-picture{aspect-ratio:.94/1;padding:8px}.product-info{padding:10px}.product-info h3{font-size:12px;min-height:48px;margin:6px 0 13px}.product-bottom strong{font-size:11px}.product-bottom a{font-size:9px}.footer-main{display:block}.footer-nav{margin-top:19px}.footer-bottom{font-size:9px}}
     @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
   </style>
 </head>
@@ -70,13 +72,17 @@ const html = `<!doctype html>
       </a>
       <label class="searchbox"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg><input id="search" type="search" placeholder="Найти аксессуар" autocomplete="off" aria-label="Найти аксессуар"></label>
       <a href="#catalog" class="top-link" aria-label="Перейти в каталог">Каталог&nbsp; ↓</a>
-      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-nav"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+      <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="menu-dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
     </div>
     <nav class="nav wrap" id="mobile-nav" aria-label="Категории">
-      <a href="#catalog">Все товары</a>
+      <a href="#catalog" class="catalog-nav-all"><svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Каталог</a>
       ${data.categories.map((item) => `<a href="#catalog" data-nav-category="${esc(item.slug)}">${esc(item.nameRu)}</a>`).join("")}
     </nav>
   </header>
+  <dialog class="menu-dialog" id="menu-dialog" aria-labelledby="menu-title">
+    <div class="menu-heading"><h2 id="menu-title">Меню</h2><button class="menu-close" type="button" aria-label="Закрыть меню"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+    <nav aria-label="Меню магазина"><a href="#catalog" data-menu-filter="all">Все товары</a><a href="#categories">Категории</a>${data.categories.map((item) => `<a href="#catalog" data-menu-filter="${esc(item.slug)}">${esc(item.nameRu)}</a>`).join("")}</nav>
+  </dialog>
   <main>
     <section class="wrap hero">
       <div class="hero-copy"><span class="eyebrow">КОМФОРТ В ДЕТАЛЯХ</span><h1>Каждая деталь<br>имеет значение.</h1><p>Аксессуары для салона, ухода и комфортных поездок. Найдите то, что нужно вашему автомобилю.</p><a class="primary" href="#catalog">Подобрать аксессуары</a><div class="hero-note">Салон · Уход · Поездки</div></div>
@@ -93,7 +99,7 @@ const html = `<!doctype html>
     const count = document.getElementById("result-count");
     const empty = document.getElementById("empty");
     const menuButton = document.querySelector(".menu-button");
-    const nav = document.getElementById("mobile-nav");
+    const menu = document.getElementById("menu-dialog");
     let active = "all";
     function update() {
       const query = search.value.trim().toLocaleLowerCase("ru");
@@ -108,24 +114,23 @@ const html = `<!doctype html>
     }
     search.addEventListener("input", update);
     menuButton.addEventListener("click", () => {
-      const isOpen = menuButton.getAttribute("aria-expanded") !== "true";
-      menuButton.setAttribute("aria-expanded", String(isOpen));
-      menuButton.setAttribute("aria-label", isOpen ? "Закрыть меню" : "Открыть меню");
-      nav.classList.toggle("is-open", isOpen);
+      menu.showModal();
+      menuButton.setAttribute("aria-expanded", "true");
     });
-    nav.addEventListener("click", (event) => {
-      if (event.target.closest("a")) {
-        nav.classList.remove("is-open");
-        menuButton.setAttribute("aria-expanded", "false");
-        menuButton.setAttribute("aria-label", "Открыть меню");
-      }
+    function closeMenu() { menu.close(); }
+    document.querySelector(".menu-close").addEventListener("click", closeMenu);
+    menu.addEventListener("close", () => {
+      menuButton.setAttribute("aria-expanded", "false");
+      menuButton.focus({ preventScroll: true });
     });
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && nav.classList.contains("is-open")) {
-        nav.classList.remove("is-open");
-        menuButton.setAttribute("aria-expanded", "false");
-        menuButton.setAttribute("aria-label", "Открыть меню");
-        menuButton.focus();
+    menu.addEventListener("click", (event) => {
+      const link = event.target.closest("a");
+      if (link) {
+        closeMenu();
+        if (link.dataset.menuFilter) document.querySelector('[data-filter="' + link.dataset.menuFilter + '"]')?.click();
+      } else if (event.target === menu) {
+        const rect = menu.getBoundingClientRect();
+        if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeMenu();
       }
     });
     for (const filter of filters) filter.addEventListener("click", () => {
