@@ -1,0 +1,550 @@
+{
+  "categories": [
+    {
+      "slug": "interior",
+      "nameRu": "Салон и электроника",
+      "nameAz": "Salon və elektronika",
+      "descriptionRu": "Полезные детали и электроника для салона",
+      "descriptionAz": "Salon üçün faydalı detallar və elektronika",
+      "position": 0
+    },
+    {
+      "slug": "mats",
+      "nameRu": "Коврики и багажник",
+      "nameAz": "Ayaqaltılar və baqaj",
+      "descriptionRu": "Порядок начинается с основы",
+      "descriptionAz": "Səliqə əsasdan başlayır",
+      "position": 1
+    },
+    {
+      "slug": "seats",
+      "nameRu": "Чехлы и подушки",
+      "nameAz": "Örtüklər və yastıqlar",
+      "descriptionRu": "Забота о сиденьях и комфорте",
+      "descriptionAz": "Oturacaqlar və rahatlıq üçün",
+      "position": 2
+    },
+    {
+      "slug": "phone",
+      "nameRu": "Держатели и зарядки",
+      "nameAz": "Tutacaqlar və şarj cihazları",
+      "descriptionRu": "Всё нужное — под рукой",
+      "descriptionAz": "Lazım olan hər şey əlinizin altında",
+      "position": 3
+    },
+    {
+      "slug": "storage",
+      "nameRu": "Хранение и органайзеры",
+      "nameAz": "Saxlama və təşkilat",
+      "descriptionRu": "Каждой вещи своё место",
+      "descriptionAz": "Hər əşyanın öz yeri",
+      "position": 4
+    },
+    {
+      "slug": "exterior",
+      "nameRu": "Внешние аксессуары",
+      "nameAz": "Xarici aksesuarlar",
+      "descriptionRu": "Детали для внешнего вида",
+      "descriptionAz": "Xarici görünüş üçün detallar",
+      "position": 5
+    },
+    {
+      "slug": "care",
+      "nameRu": "Уход и уборка",
+      "nameAz": "Qulluq və təmizlik",
+      "descriptionRu": "Внимание к чистоте автомобиля",
+      "descriptionAz": "Avtomobilin təmizliyinə qayğı",
+      "position": 6
+    },
+    {
+      "slug": "travel",
+      "nameRu": "Поездки и комфорт",
+      "nameAz": "Səfərlər və rahatlıq",
+      "descriptionRu": "Для вас и ваших попутчиков",
+      "descriptionAz": "Sizin və yol yoldaşlarınız üçün",
+      "position": 7
+    }
+  ],
+  "products": [
+    {
+      "slug": "initial-01",
+      "name": "Вкладыш органайзер в щель сиденья автомобиля",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-01.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%B2%D0%BA%D0%BB%D0%B0%D0%B4%D1%8B%D1%88%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B0%D0%B9%D0%B7%D0%B5%D1%80%20%D0%B2%20%D1%89%D0%B5%D0%BB%D1%8C%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D1%8F%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-02",
+      "name": "Коврик на приборную панель нескользящий автомобиль",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-02.webp",
+      "productUrl": "https://market.yandex.ru/search?text=%D0%BA%D0%BE%D0%B2%D1%80%D0%B8%D0%BA+%D0%B0%D0%BD%D1%82%D0%B8%D0%B1%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9+%D0%BD%D0%B0+%D1%82%D0%BE%D1%80%D0%BF%D0%B5%D0%B4%D0%BE",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-03",
+      "name": "Оплетка на руль автомобиля универсальная",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-03.webp",
+      "productUrl": "https://market.yandex.ru/card/opletka-na-rul-voin-swift-so-shnurovkoy-ekokozha-m-38sm-chernyy/103175269111",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-04",
+      "name": "Накладка на порог автомобиля защитная",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-04.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/nakleiki-na-vaz-2113",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-05",
+      "name": "Солнцезащитная шторка на лобовое стекло авто",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-05.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/folbga-na-lobovoe-avto",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-06",
+      "name": "Крючки на подголовник автомобиля набор",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-06.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/plastikovye-kruczki-na-podgolovnik-avto",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-07",
+      "name": "Зеркало автомобильное салонное дополнительное",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-07.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%B7%D0%B5%D1%80%D0%BA%D0%B0%D0%BB%D0%BE%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%B4%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-08",
+      "name": "Ароматизатор в дефлектор автомобиля",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-08.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%B0%D1%80%D0%BE%D0%BC%D0%B0%D1%82%D0%B8%D0%B7%D0%B0%D1%82%D0%BE%D1%80%20%D0%B2%20%D0%B4%D0%B5%D1%84%D0%BB%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-09",
+      "name": "Автомобильная подушка на подголовник",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-09.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BE%D0%B4%D1%83%D1%88%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D0%B4%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B8%D0%BA",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-10",
+      "name": "Карман сетка на боковину салона автомобиля",
+      "category": "interior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-10.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%BA%D0%B0%D1%80%D0%BC%D0%B0%D0%BD%20%D1%81%D0%B5%D1%82%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%B1%D0%BE%D0%BA%D0%BE%D0%B2%D0%B8%D0%BD%D1%83%20%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-11",
+      "name": "Коврики EVA в салон автомобиля",
+      "category": "mats",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-11.webp",
+      "productUrl": "https://www.ozon.ru/product/kovriki-haval-dargo-haval-dargo-2022-2025-s-bortikami-3d-kovry-eva-eva-eva-s-bortami-2241687980/",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-12",
+      "name": "Резиновые коврики универсальные автомобиль",
+      "category": "mats",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-12.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/kovriki-v-mashinu-universalbnye-komplekt",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-13",
+      "name": "Коврик в багажник универсальный автомобиль",
+      "category": "mats",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-13.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%BA%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%B2%20%D0%B1%D0%B0%D0%B3%D0%B0%D0%B6%D0%BD%D0%B8%D0%BA%20%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-14",
+      "name": "Сетка в багажник автомобиля",
+      "category": "mats",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-14.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D1%81%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B2%20%D0%B1%D0%B0%D0%B3%D0%B0%D0%B6%D0%BD%D0%B8%D0%BA%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-15",
+      "name": "Чехлы на сиденья автомобиля универсальные",
+      "category": "seats",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-15.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/avtoczehly-tkanevye-universalbnye",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-16",
+      "name": "Накидка на сиденье автомобиля",
+      "category": "seats",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-16.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/avtoczehly-tkanevye-universalbnye",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-17",
+      "name": "Подушка поясничная в автомобиль",
+      "category": "seats",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-17.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/pojasnicznyi-valik-v-mashinu",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-18",
+      "name": "Подушка автомобильная на шею",
+      "category": "seats",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-18.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/154500946/detail.aspx",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-19",
+      "name": "Защитный коврик под детское автокресло",
+      "category": "seats",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-19.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D1%8B%D0%B9%20%D0%BA%D0%BE%D0%B2%D1%80%D0%B8%D0%BA%20%D0%BF%D0%BE%D0%B4%20%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B5%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BA%D1%80%D0%B5%D1%81%D0%BB%D0%BE",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-20",
+      "name": "Держатель телефона в авто на воздуховод",
+      "category": "phone",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-20.webp",
+      "productUrl": "https://market.yandex.ru/card/derzhatel-dlya-telefona-avtomobilnyy-v-mashinu-na-vozdukhovod-reshetku-ventilyatsii-deflektor-chernyy/4824286748",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-21",
+      "name": "Держатель телефона на присоске автомобиль",
+      "category": "phone",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-21.webp",
+      "productUrl": "https://market.yandex.ru/card/derzhatel-dlya-telefona-avtomobilnyy-v-mashinu-na-prisoske-na-panel-na-steklo/4519587511",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-22",
+      "name": "Держатель телефона магнитный авто",
+      "category": "phone",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-22.webp",
+      "productUrl": "https://market.yandex.ru/card/avtomobilnyy-derzhatel-faizfull-f19-magnitnyy/4380572574",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-23",
+      "name": "Зарядное устройство автомобильное USB",
+      "category": "phone",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-23.webp",
+      "productUrl": "https://www.ozon.ru/product/zaryadka-v-prikurivatel-2-usb-2-type-c-s-bystroy-zaryadkoy-3391618455/",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-24",
+      "name": "Зарядное устройство автомобильное Type C",
+      "category": "phone",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-24.webp",
+      "productUrl": "https://www.ozon.ru/product/avtomobilnoe-zaryadnoe-ustroystvo-ugreen-ec307-45843-30w-2-x-usb-c-usb-a-seryy-3002474143/",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-25",
+      "name": "Разветвитель прикуривателя автомобильный",
+      "category": "phone",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-25.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D1%80%D0%B0%D0%B7%D0%B2%D0%B5%D1%82%D0%B2%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%20%D0%BF%D1%80%D0%B8%D0%BA%D1%83%D1%80%D0%B8%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8F%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-26",
+      "name": "Держатель телефона в подстаканник авто",
+      "category": "phone",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-26.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D0%B0%20%D0%B2%20%D0%BF%D0%BE%D0%B4%D1%81%D1%82%D0%B0%D0%BA%D0%B0%D0%BD%D0%BD%D0%B8%D0%BA%20%D0%B0%D0%B2%D1%82%D0%BE",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-27",
+      "name": "Камера заднего вида автомобильная",
+      "category": "phone",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-27.webp",
+      "productUrl": "https://market.yandex.ru/card/kamera-zadnego-vida-4-led-obzor-170-gradusov-s-zashchitoy-ot-vlagi-tr-101/103787377570",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-28",
+      "name": "Органайзер в багажник автомобиля складной",
+      "category": "storage",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-28.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/aksessuary/avtotovary/avtoaksessuary-i-dopolnitelnoe-oborudovanie/zashchita-avtomobilya/tags/peregorodka-v-bagazhnik-avtomobilja",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-29",
+      "name": "Сумка органайзер автомобильная в багажник",
+      "category": "storage",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-29.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/aksessuary/avtotovary/avtoaksessuary-i-dopolnitelnoe-oborudovanie/zashchita-avtomobilya/tags/peregorodka-v-bagazhnik-avtomobilja",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-30",
+      "name": "Органайзер на спинку сиденья авто",
+      "category": "storage",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-30.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/organaizer-setka-na-spinku-sidenbja-avtomobilja",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-31",
+      "name": "Сетка-карман на сиденье автомобиля",
+      "category": "storage",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-31.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D1%81%D0%B5%D1%82%D0%BA%D0%B0-%D0%BA%D0%B0%D1%80%D0%BC%D0%B0%D0%BD%20%D0%BD%D0%B0%20%D1%81%D0%B8%D0%B4%D0%B5%D0%BD%D1%8C%D0%B5%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-32",
+      "name": "Брызговики универсальные автомобильные",
+      "category": "exterior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-32.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%B1%D1%80%D1%8B%D0%B7%D0%B3%D0%BE%D0%B2%D0%B8%D0%BA%D0%B8%20%D1%83%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B0%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8C%D0%BD%D1%8B%D0%B5",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-33",
+      "name": "Дефлекторы окон автомобиля комплект",
+      "category": "exterior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-33.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/deflektor-na-bokovye-okna-avto",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-34",
+      "name": "Защитная пленка на пороги автомобиля",
+      "category": "exterior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-34.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%B7%D0%B0%D1%89%D0%B8%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%B5%D0%BD%D0%BA%D0%B0%20%D0%BD%D0%B0%20%D0%BF%D0%BE%D1%80%D0%BE%D0%B3%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-35",
+      "name": "Солнцезащитный экран на боковое стекло автомобиля",
+      "category": "exterior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-35.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/semnye-shtorki-na-avtomobilb",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-36",
+      "name": "Щетка для снега автомобиля со скребком",
+      "category": "exterior",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-36.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D1%89%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%81%D0%BD%D0%B5%D0%B3%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F%20%D1%81%D0%BE%20%D1%81%D0%BA%D1%80%D0%B5%D0%B1%D0%BA%D0%BE%D0%BC",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-37",
+      "name": "Микрофибра для автомобиля набор салфеток",
+      "category": "care",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-37.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/162785532/detail.aspx",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-38",
+      "name": "Набор кистей для детейлинга автомобиля",
+      "category": "care",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-38.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/187558569/detail.aspx",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-39",
+      "name": "Перчатка для мойки автомобиля микрофибра",
+      "category": "care",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-39.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%BF%D0%B5%D1%80%D1%87%D0%B0%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D0%BC%D0%BE%D0%B9%D0%BA%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F%20%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%84%D0%B8%D0%B1%D1%80%D0%B0",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-40",
+      "name": "Щетка для дисков автомобиля",
+      "category": "care",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-40.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/sczetka-dlja-oczistki-shin",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-41",
+      "name": "Автопылесос автомобильный",
+      "category": "care",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-41.webp",
+      "productUrl": "https://market.yandex.ru/card/pylesos-dlya-avtomobilya-ruchnoy-besprovodnoy--avtopylesos-moshchnyy-vipzona-prazdnichnyye-podarki/4311618177",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-42",
+      "name": "Насадка пеногенератор для мойки автомобиля",
+      "category": "care",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-42.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/bytovaya-tehnika/tags/pennyi-generator-dlja-moiki-avto",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-43",
+      "name": "Губка для мойки автомобиля",
+      "category": "care",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-43.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/tags/gubka-dlja-mytbja-mashiny-bez-carapin",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-44",
+      "name": "Щетка для чистки салона автомобиля",
+      "category": "care",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-44.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D1%89%D0%B5%D1%82%D0%BA%D0%B0%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B8%D1%81%D1%82%D0%BA%D0%B8%20%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F",
+      "photoForReference": true
+    },
+    {
+      "slug": "initial-45",
+      "name": "Полотенце для сушки автомобиля микрофибра",
+      "category": "care",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-45.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/aksessuary/avtotovary/tags/dlja-sushki-avto-bez-razvodov",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-46",
+      "name": "Подушка для путешествий автомобильная",
+      "category": "travel",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-46.webp",
+      "productUrl": "https://global.wildberries.ru/catalog/154500946/detail.aspx",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-47",
+      "name": "Сумка холодильник автомобильная",
+      "category": "travel",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-47.webp",
+      "productUrl": "https://market.yandex.ru/category/elektricheskiye-sumki-kholodilniki",
+      "photoForReference": false
+    },
+    {
+      "slug": "initial-48",
+      "name": "Набор автомобилиста дорожный аварийный",
+      "category": "travel",
+      "description": "Товар из ассортимента российских маркетплейсов. Точную комплектацию, размеры и совместимость поставщик подтвердит перед заказом.",
+      "priceLabel": "Цена по запросу",
+      "image": "assets/product-images/product-48.webp",
+      "productUrl": "https://www.ozon.ru/search/?text=%D0%BD%D0%B0%D0%B1%D0%BE%D1%80%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D0%B8%D1%81%D1%82%D0%B0%20%D0%B4%D0%BE%D1%80%D0%BE%D0%B6%D0%BD%D1%8B%D0%B9%20%D0%B0%D0%B2%D0%B0%D1%80%D0%B8%D0%B9%D0%BD%D1%8B%D0%B9",
+      "photoForReference": true
+    }
+  ]
+}
